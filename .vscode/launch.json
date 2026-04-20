@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug s01 Agent Loop",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/agents/s01_agent_loop.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "DEBUG": "",
+        "NO_PROXY": "localhost,127.0.0.1",
+        "no_proxy": "localhost,127.0.0.1"
+      },
+      "justMyCode": true
+    }
+  ]
+}
